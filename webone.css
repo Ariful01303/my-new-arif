@@ -4,29 +4,30 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
-    display: flex;
+
     
-}
+
 .mainhead{
+    display: flex;
     height: 300px;
-    padding-bottom:150px ;
+    padding-bottom:15px ;
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 500px;
 }
 
 .con{
     color: orange;
 }
-.half{
+.hlaf{
     width: 50%;
     float: left;
-    margin: 5%;
-    padding: %;
+    margin-left: 5%;
+    padding: 2px%;
 
 }
-.half img{
-  width: 80%;
+.hlaf img{
+  width: 100%;
 }
 h1{
     font-size: 50px;
@@ -39,4 +40,52 @@ h1{
     padding: 10px 30px;
     border-radius: 8px;
     
+}
+.mid-le{
+    display: flex;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.tag{
+    text-decoration: none;
+    color: papayawhip;
+    padding: 10px 25px;
+    background: linear-gradient(rgb(221, 183, 12),tomato);
+    border-radius: 10px;
+
+}
+.maindivto{
+    display: flex;
+    padding-right: 5px;
+
+    
+}
+.left{
+    width: 40%;
+    float: left;
+   padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 8px 10px #888888;
+    border-left: 10px solid rgb(255, 165, 0);
+   
+}
+h2{
+    color: orange;
+}
+#tosay{
+    border-left:7px solid ;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#nothing{
+    border-left:7px solid ;
+    border-image:linear-gradient(rgb(9, 240, 40),rgb(241, 41, 5));
+    border-image-slice: 1;
+
+}
+.fottr{
+    text-align: center;
 }
